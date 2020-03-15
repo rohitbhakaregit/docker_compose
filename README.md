@@ -1,7 +1,13 @@
 # docker_compose
 
+## simply run above application by
+
+#### docker-compose -d up 
+
+
+
 ```
-ref docker commands
+if you are using docker then use following commands 
 
 docker run -d  --name=redis redis 
 docker run -d  --name=db -e POSTGRES_HOST_AUTH_METHOD=trust  postgres:9.4
